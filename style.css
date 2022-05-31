@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+}
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color: orangered;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calc-box{
+    width: 20%;
+    height: 340px;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    width: 90%;
+}
+.enter-number{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+input[type=text]{
+    width: 50%;
+    height: 30px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: thin solid #333;
+    margin: 5px;
+}
+.buttons{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+button{
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(189, 183, 183);
+    border-radius: 5px;
+}
+.result{
+    width: 90%;
+    height: 35px;
+    margin-top:5px;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.4em;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#par-impar{
+    width: 90%;
+    height: 30px;
+    margin-top:15px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+#primo{
+    width: 90%;
+    height: 30px;
+    margin-top:15px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
